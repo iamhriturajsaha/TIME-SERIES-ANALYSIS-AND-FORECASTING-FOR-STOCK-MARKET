@@ -101,7 +101,7 @@ model.compile(optimizer='adam', loss='mse')
 
 #### ⚙️ Training
 - Model is trained on the training split of the time series
-- Batch size, epochs, and learning rate can be customized
+- Batch size, epochs and learning rate can be customized
 - Predictions are inverse transformed back to original scale
 
 #### 📏 Evaluation
@@ -112,7 +112,7 @@ model.compile(optimizer='adam', loss='mse')
 ### 7. 📊 Results Compilation
 
 - MSE results for all models (ARIMA, SARIMA, Prophet, LSTM) are stored in a DataFrame
-- **Columns**: Company, Model, MSE
+- Columns - Company, Model, MSE
 - Results are combined and sorted for comparative analysis
 - Final output is exported as `Model Comparison Results.csv`
 
