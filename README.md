@@ -1,6 +1,6 @@
 # 📈 Time Series Analysis and Forecasting for Stock Market
 
-This project explores time series forecasting of stock prices using Yahoo Finance data, utilizing both classical and deep learning models. The project implements and compares four different forecasting approaches:
+This project explores time series forecasting of stock prices using Yahoo Finance data, utilizing both classical and deep learning models. The project implements and compares four different forecasting approaches -
 
 - **ARIMA** (AutoRegressive Integrated Moving Average)
 - **SARIMA** (Seasonal ARIMA)
@@ -11,16 +11,16 @@ Model performance is evaluated and compared using Mean Squared Error (MSE) acros
 
 ## 📂 Dataset
 
-- **Source**: Yahoo Finance
-- **File**: `Yahoo Finance Stock Data.csv`
+- **Source** - Yahoo Finance
+- **File** - `Yahoo Finance Stock Data.csv`
 - **Key Columns**:
-  - `Date`: Time series index
-  - `Company`: Stock ticker/company identifier
-  - `Close`: Target column for prediction (closing price)
+  - `Date` - Time series index
+  - `Company` - Stock ticker/company identifier
+  - `Close` - Target column for prediction (closing price)
 
 ## 🛠️ Installation
 
-Make sure to install all necessary dependencies before running the notebook:
+Make sure to install all necessary dependencies before running the notebook -
 
 ```bash
 pip install pmdarima prophet keras yfinance pandas scikit-learn matplotlib seaborn
@@ -39,13 +39,13 @@ pip install pmdarima prophet keras yfinance pandas scikit-learn matplotlib seabo
 ### 2. 📊 Data Visualization
 
 - Line plots are created to visualize closing prices over time
-- Each company's closing price is plotted individually to identify trends, seasonality, and anomalies
+- Each company's closing price is plotted individually to identify trends, seasonality and anomalies
 
 ### 3. 🔁 ARIMA Forecasting
 
 - ARIMA is a classical time series model implemented using `statsmodels`
-- **Model Configuration**: ARIMA(5,1,0)
-- **Data Split**: 
+- **Model Configuration** - ARIMA(5,1,0)
+- **Data Split** -
   - 80% for training
   - 20% for testing
 - ARIMA model is fit to the training set and forecasted on the test set
@@ -64,11 +64,11 @@ pip install pmdarima prophet keras yfinance pandas scikit-learn matplotlib seabo
 ### 5. 🔮 Prophet Forecasting
 
 - Facebook Prophet is designed to handle time series with strong seasonal effects and missing data
-- **Data Formatting**: 
+- **Data Formatting** -
   - `ds` for date
   - `y` for value (closing price)
 - Model trained on 80% of data, predictions made for remaining 20%
-- Prophet automatically handles:
+- Prophet automatically handles -
   - Trends
   - Seasonality (weekly, yearly)
   - Holiday effects
@@ -81,7 +81,7 @@ LSTM (Long Short-Term Memory) is a type of recurrent neural network (RNN) specif
 #### 🔧 Preprocessing
 - Close prices are scaled using `MinMaxScaler`
 - A sliding window approach creates sequences of `n_steps` (e.g., 30)
-- Data is reshaped to fit LSTM input format: `(samples, time steps, features)`
+- Data is reshaped to fit LSTM input format - `(samples, time steps, features)`
 
 ```python
 from sklearn.preprocessing import MinMaxScaler
