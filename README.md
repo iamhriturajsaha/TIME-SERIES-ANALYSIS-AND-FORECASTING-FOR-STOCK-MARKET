@@ -140,7 +140,7 @@ model.compile(optimizer='adam', loss='mse')
 
 ---
 
-## 📅 Analysis Screenshots
+## 📅 Analysis Results
 
 <table>
   <tr>
