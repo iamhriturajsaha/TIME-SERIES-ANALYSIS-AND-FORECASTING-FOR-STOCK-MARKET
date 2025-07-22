@@ -13,7 +13,7 @@ Model performance is evaluated and compared using Mean Squared Error (MSE) acros
 
 - **Source** - Yahoo Finance
 - **File** - `Yahoo Finance Stock Data.csv`
-- **Key Columns**:
+- **Key Columns** -
   - `Date` - Time series index
   - `Company` - Stock ticker/company identifier
   - `Close` - Target column for prediction (closing price)
