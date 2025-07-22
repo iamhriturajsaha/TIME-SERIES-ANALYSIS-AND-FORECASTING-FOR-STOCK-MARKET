@@ -144,30 +144,26 @@ model.compile(optimizer='adam', loss='mse')
 
 <table>
   <tr>
-    <td><img src="Analysis Images/1.png" width="100%"></td>
-    <td><img src="Analysis Images/2.png" width="100%"></td>
+    <td><img src="Analysis Images/1.png" width="50%"></td>
+    <td><img src="Analysis Images/2.png" width="50%"></td>
   </tr>
   <tr>
-    <td><img src="Analysis Images/3.png" width="100%"></td>
-    <td><img src="Analysis Images/4.png" width="100%"></td>
+    <td><img src="Analysis Images/3.png" width="50%"></td>
+    <td><img src="Analysis Images/4.png" width="50%"></td>
   </tr>
   <tr>
-    <td><img src="Analysis Images/5.png" width="100%"></td>
-    <td><img src="Analysis Images/6.png" width="100%"></td>
+    <td><img src="Analysis Images/5.png" width="50%"></td>
+    <td><img src="Analysis Images/6.png" width="50%"></td>
   </tr>
   <tr>
-    <td><img src="Analysis Images/7.png" width="100%"></td>
-    <td><img src="Analysis Images/8.png" width="100%"></td>
+    <td><img src="Analysis Images/7.png" width="50%"></td>
+    <td><img src="Analysis Images/8.png" width="50%"></td>
   </tr>
   <tr>
-    <td><img src="Analysis Images/9.png" width="100%"></td>
-    <td><img src="Analysis Images/10.png" width="100%"></td>
+    <td><img src="Analysis Images/9.png" width="50%"></td>
+    <td><img src="Analysis Images/10.png" width="50%"></td>
   </tr>
   <tr>
-    <td><img src="Analysis Images/11.png" width="100%"></td>
-    <td><img src="Analysis Images/12.png" width="100%"></td>
+    <td><img src="Analysis Images/11.png" width="50%"></td>
+    <td><img src="Analysis Images/12.png" width="50%"></td>
   </tr>
-
-  ---
-  
-**Note**: This project is for educational and research purposes. Please do not use the predictions for actual trading decisions without proper risk assessment and additional validation.
