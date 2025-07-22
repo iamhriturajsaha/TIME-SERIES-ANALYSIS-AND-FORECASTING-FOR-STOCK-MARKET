@@ -144,8 +144,8 @@ model.compile(optimizer='adam', loss='mse')
 
 <table>
   <tr>
-    <td><img src="Analysis Images/1.png" width="50%"></td>
-    <td><img src="Analysis Images/2.png" width="50%"></td>
+    <td><img src="Analysis Images/1.png" width="100%"></td>
+    <td><img src="Analysis Images/2.png" width="100%"></td>
   </tr>
   <tr>
     <td><img src="Analysis Images/3.png" width="50%"></td>
@@ -167,3 +167,4 @@ model.compile(optimizer='adam', loss='mse')
     <td><img src="Analysis Images/11.png" width="50%"></td>
     <td><img src="Analysis Images/12.png" width="50%"></td>
   </tr>
+</table>
