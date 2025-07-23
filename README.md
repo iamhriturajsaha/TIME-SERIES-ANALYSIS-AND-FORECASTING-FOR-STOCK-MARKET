@@ -140,6 +140,13 @@ model.compile(optimizer='adam', loss='mse')
 
 ---
 
+## 📶 Dashboard
+
+The Dashboard was built with the help of `Model Comparison Results.csv` dataset using Looker Studio.
+Link - https://lookerstudio.google.com/reporting/fff992df-b547-4ff2-b8f4-0b9f77b034b7
+
+![Stock Market Dashboard](Stock Market Dashboard.jpg)
+
 ## 📅 Analysis Results
 
 <table>
