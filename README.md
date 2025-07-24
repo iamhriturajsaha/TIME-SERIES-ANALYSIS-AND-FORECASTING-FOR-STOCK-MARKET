@@ -1,4 +1,4 @@
-# 📈 Time Series Analysis and Forecasting for Stock Market
+# 💹Time Series Analysis and Forecasting for Stock Market
 
 This project explores time series forecasting of stock prices using Yahoo Finance data, utilizing both classical and deep learning models. The project implements and compares four different forecasting approaches -
 
