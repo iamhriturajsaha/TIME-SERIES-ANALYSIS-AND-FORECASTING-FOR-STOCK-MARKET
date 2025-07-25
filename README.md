@@ -25,7 +25,14 @@ Make sure to install all necessary dependencies before running the notebook -
 ```bash
 pip install pmdarima prophet keras yfinance pandas scikit-learn matplotlib seaborn
 ```
+## 🚀 Getting Started
 
+1. Clone this repository
+2. Install the required dependencies
+3. Upload your Yahoo Finance stock data CSV file
+4. Run the notebook cells sequentially
+5. Review the generated comparison results and visualizations
+   
 ## 🔄 Workflow
 
 ### 1. 📥 Dataset Upload & Cleaning
@@ -121,23 +128,6 @@ model.compile(optimizer='adam', loss='mse')
 - `Cleaned Yahoo Finance Stock Data.csv` – Cleaned and processed dataset
 - `Model Comparison Results.csv` – Combined MSE results for all models and companies
 - Time series plots – Forecast vs Actual visualizations for each company and model
-
-## 🧠 Future Enhancements
-
-- 🔁 Implement rolling forecast windows (sliding test sets)
-- ⚡ Hyperparameter tuning using `optuna` or `KerasTuner`
-- 📊 Integrate technical indicators (e.g., RSI, MACD, Bollinger Bands)
-- 🧠 Experiment with Transformer or attention-based models for time series
-- 🏦 Add support for additional data sources (e.g., Alpha Vantage, Quandl)
-
-## 🚀 Getting Started
-
-1. Clone this repository
-2. Install the required dependencies
-3. Upload your Yahoo Finance stock data CSV file
-4. Run the notebook cells sequentially
-5. Review the generated comparison results and visualizations
-
 ---
 
 ## 📶 Stock Market Dashboard
@@ -176,3 +166,11 @@ Dashboard Link - https://lookerstudio.google.com/reporting/fff992df-b547-4ff2-b8
     <td align="center"><img src="Analysis Images/12.png" width="500"></td>
   </tr>
 </table>
+
+## 🧠 Future Enhancements
+
+- 🔁 Implement rolling forecast windows (sliding test sets)
+- ⚡ Hyperparameter tuning using `optuna` or `KerasTuner`
+- 📊 Integrate technical indicators (e.g., RSI, MACD, Bollinger Bands)
+- 🧠 Experiment with Transformer or attention-based models for time series
+- 🏦 Add support for additional data sources (e.g., Alpha Vantage, Quandl)
