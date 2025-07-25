@@ -62,7 +62,7 @@ pip install pmdarima prophet keras yfinance pandas scikit-learn matplotlib seabo
 ### 4. 🔁 SARIMA Forecasting
 
 - SARIMA (Seasonal ARIMA) extends ARIMA to capture seasonality
-- **Configuration**: SARIMA(1,1,1)(1,1,1,12)
+- **Configuration** - SARIMA(1,1,1)(1,1,1,12)
 - Uses `SARIMAX` from `statsmodels`
 - Handles monthly seasonality (s=12)
 - Same data split as ARIMA (80/20)
@@ -128,15 +128,14 @@ model.compile(optimizer='adam', loss='mse')
 - `Cleaned Yahoo Finance Stock Data.csv` – Cleaned and processed dataset
 - `Model Comparison Results.csv` – Combined MSE results for all models and companies
 - Time series plots – Forecast vs Actual visualizations for each company and model
----
 
-## 📶 Stock Market Dashboard
+## 📶 Dashboard
 
 The Dashboard was built with the help of `Model Comparison Results.csv` dataset using Looker Studio.
 
 Dashboard Link - https://lookerstudio.google.com/reporting/fff992df-b547-4ff2-b8f4-0b9f77b034b7
 
-![Stock Market Dashboard](Stock%20Market%20Dashboard.jpg)
+![Dashboard](Dashboard.jpg)
 
 ## 📅 Analysis Results
 
