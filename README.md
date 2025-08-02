@@ -123,12 +123,6 @@ model.compile(optimizer='adam', loss='mse')
 - Results are combined and sorted for comparative analysis
 - Final output is exported as `Model Comparison Results.csv`
 
-## ✅ Output Files
-
-- `Cleaned Yahoo Finance Stock Data.csv` – Cleaned and processed dataset
-- `Model Comparison Results.csv` – Combined MSE results for all models and companies
-- Time series plots – Forecast vs Actual visualizations for each company and model
-
 ## 📶 Dashboard
 
 The Dashboard was built with the help of `Model Comparison Results.csv` using Looker Studio.
@@ -163,6 +157,26 @@ Dashboard Link - https://lookerstudio.google.com/reporting/fff992df-b547-4ff2-b8
   <tr>
     <td align="center"><img src="Analysis Images/11.png" width="500"></td>
     <td align="center"><img src="Analysis Images/12.png" width="500"></td>
+  </tr>
+    <tr>
+    <td align="center"><img src="Analysis Images/13.png" width="500"></td>
+    <td align="center"><img src="Analysis Images/14.png" width="500"></td>
+  </tr>
+    <tr>
+    <td align="center"><img src="Analysis Images/15.png" width="500"></td>
+    <td align="center"><img src="Analysis Images/16.png" width="500"></td>
+  </tr>
+    <tr>
+    <td align="center"><img src="Analysis Images/17.png" width="500"></td>
+    <td align="center"><img src="Analysis Images/18.png" width="500"></td>
+  </tr>
+    <tr>
+    <td align="center"><img src="Analysis Images/19.png" width="500"></td>
+    <td align="center"><img src="Analysis Images/20.png" width="500"></td>
+  </tr>
+    <tr>
+    <td align="center"><img src="Analysis Images/21.png" width="500"></td>
+    <td align="center"><img src="Analysis Images/22.png" width="500"></td>
   </tr>
 </table>
 
