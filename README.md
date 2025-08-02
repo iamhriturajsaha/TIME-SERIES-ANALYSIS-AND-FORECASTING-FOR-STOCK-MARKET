@@ -123,14 +123,6 @@ model.compile(optimizer='adam', loss='mse')
 - Results are combined and sorted for comparative analysis
 - Final output is exported as `Model Comparison Results.csv`
 
-## 📶 Dashboard
-
-The Dashboard was built with the help of `Model Comparison Results.csv` using Looker Studio.
-
-Dashboard Link - https://lookerstudio.google.com/reporting/fff992df-b547-4ff2-b8f4-0b9f77b034b7
-
-![Dashboard](Dashboard.jpg)
-
 ## 📅 Analysis Results
 
 <table>
@@ -187,3 +179,4 @@ Dashboard Link - https://lookerstudio.google.com/reporting/fff992df-b547-4ff2-b8
 - 📊 Integrate technical indicators (e.g., RSI, MACD, Bollinger Bands)
 - 🧠 Experiment with Transformer or attention-based models for time series
 - 🏦 Add support for additional data sources (e.g., Alpha Vantage, Quandl)
+
