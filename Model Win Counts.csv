@@ -1,0 +1,5 @@
+Model,Win Count,Win %
+LSTM,77,77.0
+ARIMA,14,14.0
+SARIMA,6,6.0
+Prophet,3,3.0
