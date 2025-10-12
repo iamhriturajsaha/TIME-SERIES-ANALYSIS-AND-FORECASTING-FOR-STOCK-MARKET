@@ -141,8 +141,6 @@ print(f"SARIMA completed for {len(results_sarima_statsmodels)} companies")
 
 # STEP 6 - Prophet Model Forecasting
 
-# STEP 6 - Prophet Model Forecasting
-
 import logging
 import warnings
 import pandas as pd
