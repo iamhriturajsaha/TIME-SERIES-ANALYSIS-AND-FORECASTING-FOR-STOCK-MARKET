@@ -179,4 +179,3 @@ model.compile(optimizer='adam', loss='mse')
 - 📊 Integrate technical indicators (e.g., RSI, MACD, Bollinger Bands)
 - 🧠 Experiment with Transformer or attention-based models for time series
 - 🏦 Add support for additional data sources (e.g., Alpha Vantage, Quandl)
-
